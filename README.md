@@ -1,14 +1,14 @@
 # Solar System Quiz Demo
 
 ## Overview
-The Solar System Quiz Demo is an interactive web application designed to test your knowledge about the planets in our solar system. With a fun and engaging quiz format, users can answer 8 carefully crafted questions that challenge their understanding of planetary facts and trivia.
+The Solar System Quiz Demo is an interactive web application designed to test your knowledge about the planets of our solar system. With a fun and engaging quiz format, users can answer a series of 8 questions that challenge their understanding of planetary facts and trivia.
 
 ## Features
-- **8 Engaging Questions**: The quiz contains exactly 8 questions, each designed to be clear and enjoyable.
-- **User-Friendly Interface**: Simple and intuitive layout for easy navigation.
-- **Instant Feedback**: Users receive immediate feedback on their answers, enhancing the learning experience.
-- **Responsive Design**: The application is optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
-- **Fun Facts**: Each question is accompanied by interesting facts about the planets, making learning enjoyable.
+- **8 Engaging Questions**: The quiz consists of exactly 8 questions, each designed to be clear and entertaining.
+- **User-Friendly Interface**: A simple and intuitive layout that enhances the user experience.
+- **Instant Feedback**: Users receive immediate feedback on their answers, allowing for a learning experience.
+- **Responsive Design**: The application is fully responsive, ensuring it works well on various devices and screen sizes.
+- **No External Dependencies**: Built using only HTML, CSS, and vanilla JavaScript, making it lightweight and easy to deploy.
 
 ## Live Demo
 The application is deployed at: [https://[username].github.io/solar-system-quiz-demo/](https://[username].github.io/solar-system-quiz-demo/)
@@ -17,12 +17,12 @@ The application is deployed at: [https://[username].github.io/solar-system-quiz-
 
 ### Local Development
 1. Clone this repository:
-   ```bash
+   ```
    git clone https://github.com/[username]/solar-system-quiz-demo.git
    ```
 2. Open `index.html` in your web browser.
 3. Or use a local server:
-   ```bash
+   ```
    python -m http.server 8000
    ```
 4. Visit [http://localhost:8000](http://localhost:8000).
@@ -31,7 +31,7 @@ The application is deployed at: [https://[username].github.io/solar-system-quiz-
 This application is automatically deployed via GitHub Pages from the main branch.
 
 ## Usage
-To use the application, simply navigate to the live demo link or open the `index.html` file in your browser. Follow the on-screen instructions to answer the quiz questions. After completing the quiz, you will receive instant feedback on your performance.
+To use the application, simply navigate to the live demo link or open the `index.html` file in your browser. Follow the prompts to answer each question. After submitting your answers, you will receive instant feedback on your performance.
 
 ## Technical Details
 
@@ -41,9 +41,7 @@ To use the application, simply navigate to the live demo link or open the `index
 - Vanilla JavaScript (ES6+)
 
 ### Architecture
-The code structure is organized to separate concerns, with HTML for markup, CSS for styling, and JavaScript for functionality. Key components include:
-- `index.html`: The main application file that contains the structure of the quiz.
-- JavaScript functions that handle quiz logic, user interactions, and feedback.
+The application is structured with a clear separation of concerns, where HTML handles the markup, CSS manages the styling, and JavaScript controls the functionality. Key components include the quiz logic, question rendering, and answer validation.
 
 ### Browser Compatibility
 - Chrome 90+
@@ -65,7 +63,7 @@ solar-system-quiz-demo/
 - Clean, readable code with comments for better understanding.
 - Responsive design that adapts to all screen sizes.
 - Error handling for edge cases to ensure a smooth user experience.
-- Accessible UI with semantic HTML for improved usability.
+- Accessible UI with semantic HTML to support all users.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -74,4 +72,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Generated as part of an automated deployment system.
 
 ***
+
 *This project was automatically generated and deployed using an LLM-based deployment pipeline.*
